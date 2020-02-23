@@ -1,0 +1,230 @@
+@charset "utf-8";
+@media (min-width:768px){
+    .win > .content >ul >li{
+        margin-left:4.333%;
+        max-width:27.8%;
+    }
+    .win > .content >ul >li > a> .pic >img{
+        max-width:358%;
+    }
+    .news > .content >.left {
+        max-width:29.4%;
+    }
+    .news > .content >.left a img{
+        max-width:100%;
+    }
+}
+@media (min-width:768px){
+    .activity> .content >.left{
+        padding-left:2.6%;
+        max-width:43%;
+    }
+  
+}
+.world{
+    position: relative;
+    width:100%;
+    height:600px;
+    margin-top:100px;
+
+}
+.world >p {
+    display: block;
+    position: relative;
+   margin-top:500px;
+    width:100%;
+}
+.world>p >img{
+   display: block;
+    position: absolute;
+    left:30%;
+}
+.world >a {
+    display: block;
+    position: absolute;
+    left:46%;
+    top:30%;
+    font-size:30px;
+}
+
+.world> a >p>i{
+    display:inline-block;
+    padding-left:10px;
+    font-size:25px;
+    transition:.2s;
+}
+.world>a:hover i{
+   /* margin-top:-7px; */
+   transform:translate(20px);
+}
+/* 展会活动 */
+.title{
+    margin-bottom: 20px;
+}
+ .title >a{
+    font-size:20px;
+}
+ .title >a i{
+    display: inline-block;
+    padding-left:10px;
+    transition:.2s;
+}
+.title >a:hover i{
+    transform: translate(7px);
+}
+/* 展会活动 */
+.activity> .content{
+    position: relative;
+    height:406px;
+    padding-top:50px;
+    padding-bottom:60px;
+    margin-top:60px;
+    margin-bottom:60px;
+    
+}
+.activity> .content >.left{
+    margin: 30px 0;
+    padding-top:50px ;
+    padding-right:50px ;
+    padding-bottom:50px;
+    background-color:rgb(220,230,238);
+}
+
+.activity> .content >.left >a{
+    display: block;
+}
+.activity> .content >.left >a> p:nth-child(1){
+    font-size:12px;
+}
+.activity> .content >.left >a> p:nth-child(3){
+    margin-top:5px;
+    margin-bottom:10px;
+}
+.activity> .content >.left >a> p:nth-child(4){
+    width:100%;
+    font-size:18px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 55px;
+}
+.activity> .content >.left >a> p:nth-child(5){
+    font-size:24px;
+}
+.activity> .content >.left >a> p:nth-child(5) >i{
+    display:inline;
+    margin-left:10px;
+    font-size:24px;
+}
+.activity> .content >.right{
+    position: absolute;
+    right:0;
+    top:0;
+    width:50%;
+}
+/* 成功故事 */
+.win{
+    margin-bottom: 100px;
+}
+.win > .content{
+    margin-top:20px;
+}
+.win > .content >ul >li{
+    position: relative;
+    float:left;
+    
+    margin-top:50px;
+    /* margin-left:62px; */
+    
+}
+
+.win > .content >ul >li > a{
+    display:block;
+}
+.win > .content >ul >li > a> .pic{
+    position: absolute;
+    left:0;
+    top:0;
+    transition:.2s;
+    max-width:27.8%;
+    
+}
+.win > .content >ul >li > a> .text{
+    margin-top:107px;
+    padding:74px 40px 20px;
+   
+    background-color: rgb(221,230,237);
+}
+.win > .content >ul >li > a> .text p:nth-child(1){
+    font-size:14px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.win > .content >ul >li > a> .text :nth-child(3){
+    margin-top:80px;
+    font-size:20px;
+}
+.win > .content >ul >li > a> .text :nth-child(3) >i{
+    display:inline-block;
+    margin-left:20px;
+    vertical-align: -5px;
+    font-size:30px;
+    transition:.2s;
+    
+}
+
+.win > .content >ul >li > a:hover p>i{
+    transform: translate(6px);
+}
+.win > .content >ul >li > a:hover .pic{
+    transform: translatex(-13px);
+}
+
+/* 近期新闻 */
+.news{
+    margin-bottom:40px;
+}
+.news > .content >.left{
+    position: relative;
+}
+.news >.content>.left>a{
+    display: block;
+}
+.news > .content >.left >a>img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.news > .content >.left >a >.text{
+    margin-top:200px;
+    padding:50px 40px 30px;
+    background-color:rgb(221,230,237);
+}
+.news > .content >.left >a >.text p:nth-child(1){
+    font-size:14px;
+    margin-bottom:10px;
+}
+.news > .content >.left >a >.text>h3{
+    margin-bottom: 65px;
+}
+.more{
+    font-size:25px;
+}
+.more >i{
+    display: inline-block;
+    margin-left:10px;
+    font-size:30px;
+    vertical-align: -5px;
+    transition: .2s;
+}
+.news > .content >.left>a:hover .more  i{
+    transform: translate(6px);
+}
+.news > .content >.right {
+    margin-left:150px;
+}
+.news > .content >.right >ul li{
+    margin-bottom: 70px;
+}
+.news > .content >.right >ul >li a {
+    displaly:block;
+}

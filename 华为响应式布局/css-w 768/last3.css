@@ -1,0 +1,42 @@
+@charset "utf-8";
+@media (min-width:400px){
+    .foot >.container >.row>dl{
+        width: 25%;
+    }
+    .foot >.container >.row2>dl,.foot >.container >.row3>dl{
+        width:100%;
+    }
+    .foot >.container >.row2>dl >dd,.foot >.container >.row3>dl>dd{
+        width:25%;
+    }
+    .row2 >dl,.row3 >dl,.row2 >dl>dd,.row3 >dl>dd{
+        float:left;
+    }
+    .foot >.container >.row>dl{
+        width:100%;
+    }
+    .foot >.container >.row>dl >dd{
+        width:50%;
+    }
+    
+}
+.foot{
+    background-color: rgb(240,240,240);
+}
+dl{
+    float:none;
+}
+dl >dt{
+    font-size:20px;
+    font-weight: bolder;
+    margin:70px 0 35px;
+}
+dl  >dd{
+    margin-bottom: 20px;
+}
+dt:hover,dd:hover{
+    text-decoration: underline;
+}
+.row>dl>dd{
+    float:left;
+}

@@ -1,0 +1,378 @@
+  @charset "utf-8";
+     	.clearfix:after{
+	     content:"";
+		 display:block;
+		 clear:both;
+	}
+	 .header{
+	     width:100%;
+		 height:40px;
+	     background-color: rgb(51,51,51);
+	 }
+	 
+	 .bar{
+	     width:1226px;
+		 margin-left:auto;
+		 margin-right:auto;
+		  
+	}
+
+	 .bar  > .topbar{
+	     float:left;
+		 position:relative;
+			 }
+	
+	 
+	 .bar > .topbar > a,  .bar > .topbar > span, .bar > .logon > a , .bar > .logon > span{
+	     display:inline-block;
+		 color:#b0b0b0;
+		 font-size:12px;
+		 line-height:40px;
+	 }
+	 .bar > .topbar> .code> .download{
+	     position:absolute;
+		 top:42px;
+		 left:484px;
+		 box-sizing:border-box;
+		 z-index:3;
+		 width:125px;
+		 height:0;
+		 color:#000;
+		 background-color: #fff;
+		 text-align:center;
+		 overflow:hidden;
+		 box-shadow:0 1px  3px #ccc;
+		 transition:.3s;
+	}
+	 .bar > .topbar> .code> .download > img {
+	     padding-top:10px;
+	}
+	 .bar > .topbar> .code> .download > p{
+	     line-height:6px;
+	}
+	 .bar > .topbar>.code > .gore:before{
+	 		 position:absolute;
+			 top:26px;
+			 left:533px;
+	 		 content:"";
+	 		 display:block;
+			 margin:auto;
+	 		 width:0;
+	 		 height:0;
+	 		 border: 7px solid transparent;
+	 		 border-bottom-color:#fff;
+			 display:none;
+	 }
+
+      
+	  .bar >.logon{
+	     float:left;
+	     margin-left:230px;
+	 }
+	 .bar .topbar > span{
+	     color:#424242;}
+	 .bar .shoppingcar {
+	     position:relative;
+		 float:right;
+         margin-right:-23px;
+      }
+	 .bar .shoppingcar > a{
+		 display:inline-block;
+		 box-sizing:border-box;
+		 width:127px;
+		 height:40px;
+		 font-size:12px;
+		 text-align:center;
+		 color:#b0b0b0;
+		 line-height:40px;
+	}
+	 .bar .shoppingcar > a > img{
+	     display:inline-block;
+		 vertical-align:middle;
+	}
+	  .bar .shoppingcar > a > span{
+		 margin-left:5px;
+	}
+	  .bar .shoppingcar   > a > .goods{
+	     position:absolute;
+		 right:0px;
+		 top:40px;
+		 z-index:99;
+		 overflow:hidden;
+		 width:350px;
+		 height:0px;
+		 line-height:90px;
+		 text-align:center;
+		 font-size:14px;
+		 overflow:hidden;
+		 background-color: #fff;
+		 box-shadow:0px 0px 3px #ccc;
+		 transition:.3s;
+		 /* display:none; */
+	 }
+     .bar .topbar > a:hover{
+	     color:#fff;
+	}
+	 .bar .logon > a:hover{
+	     color:#fff;
+	}
+	 .bar .shoppingcar > a:hover {
+	     background-color: #fff;
+		 color:red;
+	}
+	  .bar .shoppingcar > a:hover  .goods{
+	     height:90px; 
+		 color:#000;
+	}
+	 .bar > .topbar .code:hover  .download{
+	     display:block;
+		 height:136px;
+	}
+	 .bar > .topbar>.code:hover .gore:before{
+	     display:block;
+	}
+	 
+        
+     /*  logo+ÏÂÀ­+ËÑË÷ */
+	  .toolbar{
+	     position:relative;
+	     margin-top:30px;
+	}
+	 .toolbar > .container{
+	     width:1226px;
+		 margin-left:auto;
+		 margin-right:auto;
+     }
+	  .toolbar > .container >.logo{
+	     float:left;
+	}
+	 .toolbar > .container >.logo a{
+	     position:relative;
+		 display:block;
+		 width:55px;
+		 height:55px;
+		 background-color: #ff6700;
+		 overflow:hidden;
+	}
+	  .toolbar > .container >.logo a:before, .toolbar > .container >.logo a:after{
+	     content:"";
+		 display:block;
+		 width:100%;
+		 height:100%;
+		 background: url("../images/download/mi-logo.png")  no-repeat 50% 50%;
+		 transform-origin:50% 50%;
+		 transition:.4s;
+
+
+	}
+	 
+	  .toolbar > .container >.logo a:after{
+	     position:absolute;
+		 left:-55px;
+		 top:0px;
+		 background: url("../images/download/mi-home.png")  no-repeat 50% 50%;
+	 }
+	  .toolbar > .container >.logo a:hover:after{
+	     left:0px;
+		 top:0px;
+	 }
+	  .toolbar > .container >.logo a:hover:before{
+	     position:absolute;
+	   		 /* left:55px;
+	   		 top:55px; */
+			 transform:translatex(55px);
+	   	}
+	 .toolbar > .container  > .drop {
+	     float:left;
+	}
+	 .toolbar > .container  > .drop  >.droplist{
+	     
+		 float:left;
+		 margin-top:15px;
+		 margin-left:170px;
+		 
+	}
+	  .toolbar > .container  > .drop  >.droplist > .subdrop{
+	     float:left;
+		 width:71px;
+		 height:38px;
+		 margin:auto;
+
+		  
+	}
+	 .toolbar > .container  > .drop  >.droplist > .subdrop > a{
+	     display:block;
+         width:100%;
+		 height:100%;
+		 line-height:41px;
+		 color:#000;
+		 text-align:center;
+		 font-size:15px;
+		
+	}
+	  .droplist > .subdrop > a > .item{
+	     position:absolute;
+		 overflow:hidden;
+		 z-index:3;
+		 left:0px;
+		 top:90px;
+		 width:100%;
+		 height:225px;
+		 background-color: #fff;
+		 transition: height .3s;
+		 display:none;
+	}
+	
+	 .droplist > .subdrop > a >.item > .itemlist{
+		 width:1226px;
+		 margin:0 auto;
+	}
+	 .droplist > .subdrop > a > .item >  .itemlist > li{
+	     float:left;
+		 width:204px;
+		 height:223px;
+		 margin-left:0px;
+		 
+	}
+	 .droplist > .subdrop > a > .item > .itemlist > li > img {
+	     display:block;
+		 margin: 20px auto;
+		 border-right:1px solid #ccc;
+	}
+	 .droplist > .subdrop > a > .item > .itemlist > li > p{
+	     color:#000;
+		 font-size:14px;
+		 text-align:center;
+		 line-height:14px;
+	}
+	 .droplist > .subdrop > a > .item> .itemlist > li > .orange{
+		 display:block;
+		 margin-top:5px;
+		 color:orange;
+		 line-height:14px;
+	}
+	 .drop  .droplist .subdrop > a :hover{
+	      color:red;}
+	 .drop:hover .item{
+		 border-top:1px solid #ccc;
+	}
+	 .drop .droplist:hover .item{
+	     height:225px;
+	 }
+	.drop .droplist >.subdrop:hover  .item  {
+	  		display:block;
+	  }
+	
+	
+  
+
+	/* ËÑË÷¿ò */
+	 .search{
+	     float:right;
+		 width:296px;
+		 margin-top:10px;
+	 }
+     .search >  form{
+		 position:relative;
+		 width:296px;
+		 height:50px;
+	}
+	 .search >  form > .searchbox:focus{
+	     outline:1px solid #ff6700;
+		 border:0;
+	}
+	 .search >  form > .searchbox:focus ~ .submitbox{
+	     outline:none;
+		 border:1px solid #ff6700;}
+    
+     .search >  form >.searchbox,  .search >  form > .submitbox{
+	     position:absolute;
+		 top:0px;
+		 border:1px solid #e0e0e0;
+         padding:0 10px;
+	 }
+     .search >  form > .searchbox{
+		 right:51px;
+		 box-sizing:border-box;
+		 z-index:2;
+		 height:48px;
+		 width:223px;
+		 font-size:14px;
+		 line-height:48px;
+	 }
+	  .search >  form > .submitbox{
+	     right:0;
+		 width:52px;
+		 height:48px;
+		 background-color: #fff;
+		 color:#616161;
+		 font-size:24px;
+		 line-height:24px;
+		 cursor:pointer;
+	  }
+	   .search >  form > .submitbox > i{
+	         border:0;
+			 color:#000;
+	}
+	
+	
+	 .search >  form > .submitbox:hover{
+	     background-color: #ff6700;
+		 border:0px;
+	  }
+	  .search [type="search"]:hover{
+	border-color:#b0b0b0;
+     }
+	 .search [type="search"]:hover + [type="submit"]{
+	     border-color:#b0b0b0;
+     }
+	 .search form:hover  [type="search"]{
+	border-color:#b0b0b0;
+    }
+	  .search .hot-goods {
+	  		 position:absolute;
+			 z-index:34;
+			 height: 50px;
+	  		 line-height: 50px;
+	  		 top:0;
+	  		 right:66px;
+	       }
+	 .search .hot-goods > a{
+	  		 z-index:33;
+	  		 background-color: #eee;
+	  		 color:#757575;
+	  		 font-size:12px;
+	  		 padding:0 4px;
+	  		 margin-left:10px;
+	  }
+      .search .hot-goods >a:hover{
+		 background-color: #ff6700;
+		  color:#fff;
+}
+    
+     .search .search-list{
+		 display: none;
+		 position:absolute;
+		 top:47px;
+		 left:23px;
+		 width: 219px;
+		 border:1px solid #ff6700;
+		 border-top:0;
+		 background-color: #fff;
+		 z-index: 33;
+} 
+     .search .search-list li{
+		padding-left:15px;
+		font-size:12px;
+		height: 30px;
+		line-height: 30px;
+}
+     .search .search-list li:hover{
+	     background-color: #fafafa;
+} 
+      .search [type="search"]:focus ~ .search-list{
+	display: block;
+}
+     .search [type="search"]:focus ~ .hot-goods{
+	display: none;
+  }

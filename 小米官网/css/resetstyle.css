@@ -1,0 +1,65 @@
+@charset "utf-8";
+   ul,ol{
+	       list-style:none;}
+   a{
+	       text-decoration:none;}
+   body,p,ul,ol,h1,h2,h3,h4,h5,h6,dl,dd{
+		  padding:0;
+	      margin:0;}
+	.clearfix:after{
+	     content:"";
+		 display:block;
+		 clear:both;}
+	body{
+	     font:14px/1.5 "Microsoft Yahei";
+	}
+
+	 .wid1226{
+	     width:1226px;
+		 margin-left:auto;
+		 margin-right:auto;
+		 margin-bottom:20px;
+	  }
+	.font25{
+	     float:left;
+	     font-size:25px;
+		 line-height:25px;
+	}
+	.fl{
+	     float:left;
+	}
+    .fr{
+	     float:right;
+	}
+	 a{
+	     color:#000;
+	 }
+    /* 所有li标签的盒子布局 */
+	.fix> a{
+	     display:block;
+		 width:100%;
+		 height:100%;
+		 margin:19px auto 0px;
+		 text-align:center;
+	}
+	.fix> a > img{
+	     width:160px;
+	}
+	.fix> a > .c000{
+		 margin:13px auto 4px;
+		 color:#000;
+	}
+	.fix> a > .cb0b0b0{
+	     color:#b0b0b0;
+		 margin-bottom:11px;
+	     font-size:12px;
+	}
+	.fix> a > .cff6709{
+		 color:#ff6709;
+		 font-size:14px;
+	}
+     .fix> a > .cff6709 > span{
+	     color:#b0b0b0;
+		 text-decoration:line-through;
+	 }
+	

@@ -1,0 +1,73 @@
+@charset "utf-8";
+	.home-tool-bar{
+		  position:fixed;
+		  z-index:99;
+		  left:50%;
+		  right:auto;
+		  bottom:120px;
+		  width:30px;
+		  margin-left:613px;
+		  text-align:center;
+		 
+	}
+	 .home-tool-bar > a {
+	     position:relative;
+		 display:inline-block;
+		 box-sizing:border-box;
+		 width:100%;
+		 height:40px;
+		 padding-top:10px;
+		 border:1px solid #f5f5f5;
+		  background-color: #fff;
+	 }
+	 .home-tool-bar >  a > .icon-right:after{
+	     position:absolute;
+		 left:-11px;
+		 top:10px;
+		 content:"";
+		 display:block;
+		 z-index:2;
+		 width:0;
+		 height:0;
+		 border:6px solid transparent;
+		 border-left-color:#fff;
+		  display:none;
+	 }
+     .home-tool-bar > a  i{
+	     font-size:20px;
+	 }
+	.home-tool-bar > a >.subicon,.home-tool-bar > a >.w100{
+	     position:absolute;
+		 top:5px;
+		 right:39px;
+		 overflow:hidden;
+		 width:0;
+		box-shadow:0 0 3px #ccc;
+		font-size:14px;
+		 background-color: #fff;
+		 transition:0s;
+	}
+	
+	.home-tool-bar > a >.subicon > .penny{
+	     margin-bottom:10px;
+	}
+	.home-tool-bar > a >.subicon > img{
+		  margin-top:15px;
+		}
+	
+  .icon-right:hover~  .subicon{
+    		width:115px;
+    		}
+	 .icon-right:hover~  .w100{
+    		width:90px;
+    		}
+     .home-tool-bar >  a > .icon-right:hover:after{
+     		  display:block;
+     		}
+
+	 .home-tool-bar > .home{
+	     margin-top:20px;
+	 }
+	  .icon-right:hover{
+	     color:#ff6700;
+	  }

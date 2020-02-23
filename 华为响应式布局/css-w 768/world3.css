@@ -1,0 +1,222 @@
+@charset "utf-8";
+@media (min-width:516px){
+    .win > .content >ul >li{
+        margin-left:4.333%;
+    }
+    
+    .news > .content >.left {
+        max-width:100%;
+    }
+    .news > .content >.left a img{
+        min-width:100%;
+    }
+    .win > .content >ul >li > a> .text{
+        max-width:56%;
+    }
+}
+@media (min-width:516px){
+    .activity> .content >.left{
+        padding-left:2.6%;
+    }
+  
+}
+.world{
+    height:500px;
+}
+
+.world>p img{
+   display: block;
+   margin-top:500px;
+    width:100%;
+}
+.world >a {
+   display: none;
+}
+
+.world> a >p>i{
+    display:inline-block;
+    padding-left:10px;
+    font-size:25px;
+    transition:.2s;
+}
+.world>a:hover i{
+   /* margin-top:-7px; */
+   transform:translate(20px);
+}
+/* 展会活动 */
+.title{
+    margin-bottom: 20px;
+    padding-left:11px;
+    padding-right:11px;
+}
+ .title >a{
+    font-size:20px;
+    display: none;
+}
+ .title >a i{
+    display: inline-block;
+    padding-left:10px;
+    transition:.2s;
+}
+.title >a:hover i{
+    transform: translate(7px);
+}
+/* 展会活动 */
+.activity> .content{
+    position: relative;
+    height:406px;
+    padding-top:50px;
+    padding-bottom:60px;
+    margin-top:60px;
+    margin-bottom:60px;
+    
+}
+.activity> .content >.left{
+    margin: 30px 18px;
+    padding-top:50px ;
+    padding-right:50px ;
+    background-color:rgb(220,230,238);
+}
+
+.activity> .content >.left >a{
+    display: block;
+    padding-top:100px;
+    text-align: center;
+}
+.activity> .content >.left >a h1{
+    font-weight: bold;
+    font-size: 24px;
+}
+.activity> .content >.left >a> p:nth-child(1){
+   display: none;
+}
+.activity> .content >.left >a> p:nth-child(3){
+    margin-top:5px;
+    margin-bottom:10px;
+}  
+.activity> .content >.left >a> p:nth-child(4){
+    width:100%;
+    font-size:18px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 29px;
+    line-height:30px;
+}
+
+.activity> .content >.left >a> p:nth-child(5){
+   display: none;
+}
+.activity> .content >.left >a> p:nth-child(5) >i{
+    display:inline;
+    margin-left:10px;
+    font-size:24px;
+}
+.activity> .content>.left:hover p,.activity> .content>.left:hover h1{
+    text-decoration: underline;
+}
+
+.activity> .content >.right{
+    position: absolute;
+    right:21px;
+    top:-60px;  
+    width:100%;
+}
+.activity> .content >.right a{
+    display: block;
+}
+.activity> .content >.right a img{
+   display: block;
+    width:292px;
+    margin:auto;
+}
+/* 成功故事 */
+.win{
+    margin-bottom: 100px;
+}
+.win > .content{
+    margin:20px 0 0;
+
+}
+.win > .content >ul >li{
+    position: relative;
+    
+    margin-top:27px;
+    /* margin-left:62px; */
+    
+}
+
+.win > .content >ul >li > a{
+    display:block;
+    width:100%;
+    background-color: rgb(221,230,237);
+}
+.win > .content >ul >li > a> .pic{
+    float:right;
+    
+    
+    
+}
+.win > .content >ul >li > a> .pic>img{
+    display: block;
+    width:79%;
+    transform: translate(52px);
+}
+.win > .content >ul >li > a> .text{
+    padding:38px 13px 20px 13px;
+   
+    
+}
+.win > .content >ul >li > a> .text p:nth-child(1){
+    font-size:14px;
+    padding-bottom:10px;
+}
+.win > .content >ul >li > a> .text >h2{
+     height:55px;
+     font-size:20px;
+}
+.win > .content >ul >li > a> .text :nth-child(3){
+   display: none;
+}
+
+
+
+/* 近期新闻 */
+.news{
+    margin-bottom:40px;
+}
+.news > .content >.left{
+    position: relative;
+}
+.news >.content>.left>a{
+    display: block;
+}
+.news > .content >.left >a>img{
+   width:100%;
+}
+.news > .content >.left >a >.text{
+    padding:50px 40px 30px;
+    text-align: center;
+    background-color:rgb(221,230,237);
+}
+.news > .content >.left >a >.text p:nth-child(1){
+    font-size:14px;
+    margin-bottom:10px;
+}
+.news > .content >.left >a >.text>h3{
+    margin-bottom: 50px;
+}
+.more{
+    font-size:25px;
+    display: none;
+}
+
+
+.news > .content >.right {
+    margin-left:30px;
+}
+.news > .content >.right >ul li{
+    margin-bottom: 70px;
+}
+.news > .content >.right >ul >li a {
+    displaly:block;
+}

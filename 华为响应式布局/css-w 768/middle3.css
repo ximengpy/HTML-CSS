@@ -1,0 +1,106 @@
+@charset "utf-8";
+@media (min-width:516px){
+    .middle >.left{
+        width:80%;
+    }
+    .middle> .left >.details >a >img{
+        left:44%;
+    }
+    .middle >.right{
+        width:100%;
+    }
+    .middle >.right> .nava5> a >img{
+        width:100%;
+    }
+}
+.middle{
+    position:relative;
+    width:100%;
+    
+}
+.middle >.left{
+    overflow:hidden;
+    margin-bottom: 100px;
+    background-color:rgb(50,186,225);
+}
+.middle> .left >.details{
+   
+    width:50%;
+    margin:20px auto;
+    
+    text-align:left;
+}
+.middle> .left >.details >a{
+    display:block;
+    color:#fff;
+}
+.middle> .left >.details >a p:nth-child(1){
+    position: relative;
+    z-index: 2;
+    margin:400px 0 20px;
+    font-size:30px;
+   
+}
+.middle> .left >.details >a p:nth-child(2){
+    margin:0 0 80px;
+}
+.middle> .left >.details >a p:nth-child(3){
+    margin-bottom:80px;
+    font-size:25px;
+    display: none;
+}
+.middle> .left >.details >a p:nth-child(3) >i{
+    display:inline-block;
+    font-size:30px;
+    line-height: 30px;
+    transition:.3s;
+    display: none;
+}
+.middle> .left >.details >a p:nth-child(4){
+    margin-bottom:60px;
+    font-size:14px;
+}
+.middle> .left >.details >a >img{
+    position: absolute;
+    display:block;
+    top:-97px;
+    right:69px;
+    
+}
+.details:hover a p i{
+    transform:translate(20px);
+}
+/* 右边区域 */
+.middle >.right{
+    background-color: rgb(221,230,237);
+    margin-top:50px;
+    margin:auto;
+}
+.middle >.right > .nava5 >a{
+    display: block;
+    text-align: center;
+}
+.middle >.right > .nava5 >a >img{
+    width:100%;
+}
+.middle >.right> .nava5> a >p{
+    margin:0 60px;
+}
+.middle >.right  > .nava5> a> p:nth-child(2){
+    font-size: 12px;
+    margin:30px 60px;
+    
+}
+.middle >.right  > .nava5> a> p:nth-child(3){
+    font-size: 30px;
+    font-weight:bold;
+    margin-bottom: 14px;
+}
+.middle >.right  > .nava5> a> p:nth-child(4){
+    margin-bottom: 80px;
+    font-size: 18px;
+    padding-bottom: 36px;
+}
+.middle >.right  > .nava5> a> p:nth-child(5){
+   display: none;
+}
